@@ -21,15 +21,15 @@
         "php": "~7.3.33|~7.4.0",
 		 "magento/framework": ">=102.0.0"
     },
-	"extra": {
-        "map": [
-            [
-                "*",
-                "Ziaur1/Import"
-            ]
-        ]
-    },
+	"autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wireit\\Import\\": ""
+        }
+    }
     "minimum-stability": "dev",
-    "prefer-stable": false,	
+    "prefer-stable": true,	
     "version": "2.1.1"   
 }
