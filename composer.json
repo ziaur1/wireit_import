@@ -1,0 +1,32 @@
+{
+    "name": "Wireit/module-import",
+    "description": "Customer Data Import Via Csv and Json Using command line ",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ziaur",
+            "email": "rahaman.ziaur@gmail.com"
+        }
+    ],
+	
+	"repositories": {
+        "wireit/customerimport": {
+            "type": "git",
+            "url": "https://github.com/ziaur1/wereit.git"
+        }
+    },
+	
+    "require": {
+        "php": ">=7.4"
+    },
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wireit\\Import\\": ""
+        }
+    }
+}
