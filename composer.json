@@ -28,7 +28,7 @@
         "psr-4": {
             "Wireit\\Import\\": ""
         }
-    }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,	
     "version": "2.1.1"   
