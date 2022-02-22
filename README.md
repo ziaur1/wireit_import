@@ -1,5 +1,6 @@
 1. Installation: 
    1.1  Method One:
+   
        - Code is in a Zip file format named Wireit.zip
        - Unzip the zip file in magento_solution_directory/app/code folder 
        - Run the following commands to install the module 
@@ -10,6 +11,7 @@
           - magento_solution_directory/var/import/ 
 
   1.2. Method Two: 
+  
       - Please execute the following two commands in order to set Composer to accept dev releases
         - composer config minimum-stability dev
         - composer config prefer-stable true
