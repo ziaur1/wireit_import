@@ -1,5 +1,5 @@
 {
-    "name": "ziaur1/module-import",
+    "name": "ziaur1/import",
     "description": "Customer Data Import Via Csv and Json Using command line ",
     "type": "magento2-module",
     "license": "proprietary",
@@ -11,7 +11,7 @@
     ],
 	
 	"repositories": {
-        "wireit/import": {
+        "ziaur1/wireit_import": {
             "type": "git",
             "url": "https://github.com/ziaur1/wireit_import"
         }
