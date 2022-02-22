@@ -67,8 +67,8 @@ class CustomerImport extends Command
     {
         $profileType = $input->getArgument(ImportInterface::PROFILE_NAME);
         $filePath = $input->getArgument(ImportInterface::FILE_PATH);
-        $output->writeln(sprintf("Profile type chosen is %s", $profileType));
-        $output->writeln(sprintf("File Path is %s", $filePath));      
+        $output->writeln(sprintf("You profile type chosen is %s", $profileType));
+        $output->writeln(sprintf("Your file path is %s", $filePath));      
 		   if($profileType=='sample-csv')
 		   {
 			   $importData = $this->CsvImporter->getImportData($input);
@@ -79,7 +79,7 @@ class CustomerImport extends Command
 		   }
 		 if (isset($importData)) {	
             $this->saveCustomers($importData);
-            $output->writeln(sprintf("Total of %s Customers are imported", count($importData)));
+            $output->writeln(sprintf("All customers are imported", count($importData)));
             return Cli::RETURN_SUCCESS;
         }else
 		{
@@ -98,8 +98,8 @@ class CustomerImport extends Command
         $this->setName("customer:import");
         $this->setDescription("Customer Import");
         $this->setDefinition([
-            new InputArgument(ImportInterface::PROFILE_NAME, InputArgument::REQUIRED, "Profile name ex: sample-csv"),
-            new InputArgument(ImportInterface::FILE_PATH, InputArgument::REQUIRED, "File Path ex: sample.csv")
+            new InputArgument(ImportInterface::PROFILE_NAME, InputArgument::REQUIRED, "profile name example: sample-csv"),
+            new InputArgument(ImportInterface::FILE_PATH, InputArgument::REQUIRED, "file Path example: sample.csv")
         ]);
         parent::configure();
     }
