@@ -18,14 +18,14 @@
     },
 	
     "require": {
-        "php": "~7.3.0|~7.4.0",
+        "php": "~7.3.33|~7.4.0",
 		 "magento/framework": ">=102.0.0"
     },
 	"extra": {
         "map": [
             [
                 "*",
-                "Ziaur1/Import"
+                "Wireit/Import"
             ]
         ]
     },
