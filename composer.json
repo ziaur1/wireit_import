@@ -31,5 +31,13 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,	
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wireit\\Import\\": ""
+        }
+    }
 }
