@@ -21,7 +21,16 @@
         "php": "~7.3.0|~7.4.0",
 		 "magento/framework": ">=102.0.0"
     },
-	"minimum-stability": "stable",
+	"extra": {
+        "map": [
+            [
+                "*",
+                "Wireit/Import"
+            ]
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,	
     "version": "1.0.0",
     "autoload": {
         "files": [
