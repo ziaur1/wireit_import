@@ -30,6 +30,6 @@
         ]
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,	
+    "prefer-stable": false,	
     "version": "2.1.1"   
 }
