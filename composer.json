@@ -18,8 +18,10 @@
     },
 	
     "require": {
-        "php": ">=7.4"
+        "php": "~7.3.0|~7.4.0"
     },
+	"minimum-stability": "dev",
+    "prefer-stable": true,
     "version": "1.0.0",
     "autoload": {
         "files": [
