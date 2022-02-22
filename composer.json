@@ -1,5 +1,5 @@
 {
-    "name": "ziaur1/import",
+    "name": "wireit/import",
     "description": "Customer Data Import Via Csv and Json Using command line ",
     "type": "magento2-module",
     "license": "proprietary",
